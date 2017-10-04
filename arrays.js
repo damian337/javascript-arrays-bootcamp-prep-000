@@ -1,7 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function printName(holiday) {
-    return ('${holiday}')
+    return (`${holiday}`)
 }
 
 console.log(printName('John'))
