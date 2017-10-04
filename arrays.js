@@ -7,8 +7,8 @@ function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
     array = [`${element}`, ...array]
-    console.log(array)
+    
     return array
 }
 
-destructivelyAddElementToBeginningOfArray(["m", "n", "p"], "element")
+destructivelyAddElementToBeginningOfArray("foo", 1)
