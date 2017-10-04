@@ -5,4 +5,4 @@ function addElementToBeginningOfArray(array, element) {
     return newArray
 }
 
-console.log(addElementToBeginningOfArray([foo], 1))
+console.log(addElementToBeginningOfArray(['foo'], 1))
