@@ -9,3 +9,5 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
     array = array.unshift(`${element}`)
     return array
 }
+
+console.log(destructivelyAddElementToBeginningOfArray(["array", "array1", "array2"], "element"))
