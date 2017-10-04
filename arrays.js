@@ -5,4 +5,8 @@ function addElementToBeginningOfArray(array, element) {
     return newArray
 }
 
+function destructivelyAddElementToBeginningOfArray(array, element) {
+    
+}
+
 console.log(addElementToBeginningOfArray(['foo', 'food', 'foodie'], 1))
