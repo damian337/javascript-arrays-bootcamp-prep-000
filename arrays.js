@@ -1,7 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
-function printName(firstName) {
+function printName(holiday) {
     return ('${firstName}')
 }
 
-printName('John');
+console.log(printName('John'))
