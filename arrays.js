@@ -9,4 +9,4 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
     return [`${element}`, ...array]
 }
 
-console.log(addElementToBeginningOfArray(['foo', 'food', 'foodie'], 1))
+console.log(destructivelyAddElementToBeginningOfArray(['foo', 'food', 'foodie'], 1))
