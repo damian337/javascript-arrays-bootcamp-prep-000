@@ -9,5 +9,3 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
     array = [`${element}`, ...array]
     return array
 }
-
-console.log(destructivelyAddElementToBeginningOfArray(["array", "array1", "array2"], "element"))
